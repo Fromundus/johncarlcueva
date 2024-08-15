@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react"
+import Info from "./components/Info"
+import { useRef } from "react";
+import Navbar from "./components/Navbar";
+import About from "./components/About";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default function App() {
+    return (
+        <div className="overflow-x-hidden text-neutral-300 antialiased selection:bg-cyan-300 selection:text-cyan-900">
+            <div className="fixed top-0 -z-10 w-full h-full">
+                <div className="relative h-full w-full bg-gradient-to-b from-slate-950 via-slate-950 to-purple-950"><div className="absolute bottom-0 left-[-20%] right-0 top-[-10%] h-[500px] w-[500px] rounded-full bg-[radial-gradient(circle_farthest-side,rgba(255,0,182,.15),rgba(255,255,255,0))]"></div><div className="absolute bottom-0 right-[-20%] top-[-10%] h-[500px] w-[500px] rounded-full bg-[radial-gradient(circle_farthest-side,rgba(255,0,182,.15),rgba(255,255,255,0))]"></div></div>
+            </div>
+            
+            <div className="">
+                <Navbar />
+                <div className=""></div>
+                <Info />
+                <About />
+                <Projects />
+                <Contact />
+            </div>
+        </div>
+    )
 }
-
-export default App;
