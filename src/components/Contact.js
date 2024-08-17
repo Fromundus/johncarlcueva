@@ -11,7 +11,8 @@ export default function Contact(){
             <span className="text-3xl md:text-4xl lg:text-4xl text-center font-bold">CONTACT</span>
             <div className="mt-4 rounded-md self-center bg-pink-600" style={{height: "5px", width: "40px"}}></div>
 
-             <div className="flex items-center gap-4 text-4xl mt-10">
+            <p className="mt-10 text-xl">Feel free to contact me.</p>
+             <div className="flex items-center gap-5 lg:gap-12 text-4xl mt-10 mx-10">
                  <a className="hover:text-blue-500" href="https://www.facebook.com/johncarlcastrocueva" target="_blank"><FaFacebook /></a>
                  <a className="hover:text-slate-700" href="https://www.x.com/johncarlcueva_" target="_blank"><FaXTwitter /></a>
                  <a className="hover:text-pink-500" href="https://www.instagram.com/johncarl.cueva" target="_blank"><FaInstagram /></a>
