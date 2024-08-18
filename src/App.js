@@ -13,7 +13,7 @@ export default function App() {
                 <div className="relative h-full w-full bg-gradient-to-b from-slate-950 via-slate-950 to-purple-950"><div className="absolute bottom-0 left-[-20%] right-0 top-[-10%] h-[500px] w-[500px] rounded-full bg-[radial-gradient(circle_farthest-side,rgba(255,0,182,.15),rgba(255,255,255,0))]"></div><div className="absolute bottom-0 right-[-20%] top-[-10%] h-[500px] w-[500px] rounded-full bg-[radial-gradient(circle_farthest-side,rgba(255,0,182,.15),rgba(255,255,255,0))]"></div></div>
             </div>
             
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center px-10 lg:px-32">
                 <Header />
                 <Info />
                 <About />

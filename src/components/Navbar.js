@@ -10,7 +10,6 @@ export default function Navbar(){
                 to="home"
                 smooth={true}
                 spy={true}
-                offset={-100}
                 activeClass="active"
             >
                 <FaHome />
