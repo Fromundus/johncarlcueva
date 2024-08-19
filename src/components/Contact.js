@@ -28,7 +28,7 @@ export default function Contact(){
                     transition={{duration: 1, ease: "easeOut"}}
                 >Feel free to contact me.</motion.p>
                 <motion.div
-                    className="flex items-center gap-3 lg:gap-12 text-3xl lg:text-4xl mt-10 mx-10"
+                    className="flex items-center gap-3 lg:gap-8 text-3xl lg:text-4xl mt-10 mx-10"
                     initial={{x: 100, opacity: 0}}
                     whileInView={{x: 0, opacity: 1}}
                     transition={{duration: 1, ease: "easeOut"}}
