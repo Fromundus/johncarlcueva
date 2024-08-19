@@ -47,7 +47,7 @@ export default function Contact(){
                         className="hover:text-blue-400" href="https://www.linkedin.com/in/john-carl-cueva-8190172b2/" target="_blank"><FaLinkedin /></motion.a>
                     <motion.a
                         whileHover={{scale: 1.3}}
-                        className="hover:text-purple-500" href=""><FaGithub /></motion.a>
+                        className="hover:text-purple-500" href="https://github.com/Fromundus"><FaGithub /></motion.a>
                     <motion.a
                         whileHover={{scale: 1.3}}
                         className="hover:text-red-400" href="mailto:johncarlcastrocueva@gmail.com" target="_blank"><SiGmail /></motion.a>
