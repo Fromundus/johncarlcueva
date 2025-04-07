@@ -1,6 +1,7 @@
 import React from "react";
-import { FaHome, FaUser, FaPhone, FaBriefcase } from "react-icons/fa";
+import { FaUser, FaPhone, FaBriefcase } from "react-icons/fa";
 import { Link } from "react-scroll";
+import { GoHomeFill } from "react-icons/go";
 
 export default function Navbar(){
     return (
@@ -12,7 +13,7 @@ export default function Navbar(){
                 spy={true}
                 activeClass="active"
             >
-                <FaHome />
+                <GoHomeFill />
             </Link>
             <Link
                 className="cursor-pointer p-3 rounded-full"

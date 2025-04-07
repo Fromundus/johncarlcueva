@@ -1,8 +1,9 @@
 import React from "react";
-import { FaCss3Alt, FaHtml5, FaReact, FaPhp, FaLaravel, FaBootstrap } from "react-icons/fa";
+import { FaCss3Alt, FaHtml5, FaReact, FaPhp, FaLaravel, FaBootstrap, FaGitAlt, FaGithub } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { RiTailwindCssFill } from "react-icons/ri";
-import { SiMysql } from "react-icons/si";
+import { BiLogoTypescript } from "react-icons/bi";
+import { SiMysql, SiNextdotjs } from "react-icons/si";
 import { motion } from "framer-motion";
 
 export default function About(){
@@ -35,15 +36,19 @@ export default function About(){
                 >
                     <span className="text-3xl font-bold">My Skills</span>
                     <div className="flex mt-10 gap-5 flex-wrap items-center justify-center text-4xl">
-                        <div className="p-3 border border-neutral-800 rounded bg-neutral-700 text-orange-500"><FaHtml5 /></div>
-                        <div className="p-3 border border-neutral-800 rounded bg-neutral-700 text-blue-500"><FaCss3Alt /></div>
-                        <div className="p-3 border border-neutral-800 rounded bg-neutral-700 text-yellow-300"><IoLogoJavascript /></div>
-                        <div className="p-3 border border-neutral-800 rounded bg-neutral-700 text-sky-400"><FaReact /></div>
-                        <div className="p-3 border border-neutral-800 rounded bg-neutral-700 text-indigo-500"><FaPhp /></div>
-                        <div className="p-3 border border-neutral-800 rounded bg-neutral-700 text-red-600"><FaLaravel /></div>
-                        <div className="p-3 border border-neutral-800 rounded bg-neutral-700 text-purple-500"><FaBootstrap /></div>
-                        <div className="p-3 border border-neutral-800 rounded bg-neutral-700 text-cyan-400"><RiTailwindCssFill /></div>
-                        <div className="p-3 border border-neutral-800 rounded bg-neutral-700 text-blue-400"><SiMysql /></div>
+                        <div className="p-3 border border-neutral-800 rounded bg-neutral-600 text-orange-500"><FaHtml5 /></div>
+                        <div className="p-3 border border-neutral-800 rounded bg-neutral-600 text-blue-500"><FaCss3Alt /></div>
+                        <div className="p-3 border border-neutral-800 rounded bg-neutral-600 text-yellow-300"><IoLogoJavascript /></div>
+                        <div className="p-3 border border-neutral-800 rounded bg-neutral-600 text-sky-600"><BiLogoTypescript /></div>
+                        <div className="p-3 border border-neutral-800 rounded bg-neutral-600 text-sky-400"><FaReact /></div>
+                        <div className="p-3 border border-neutral-800 rounded bg-neutral-600 text-black"><SiNextdotjs /></div>
+                        <div className="p-3 border border-neutral-800 rounded bg-neutral-600 text-indigo-500"><FaPhp /></div>
+                        <div className="p-3 border border-neutral-800 rounded bg-neutral-600 text-red-600"><FaLaravel /></div>
+                        <div className="p-3 border border-neutral-800 rounded bg-neutral-600 text-purple-500"><FaBootstrap /></div>
+                        <div className="p-3 border border-neutral-800 rounded bg-neutral-600 text-cyan-400"><RiTailwindCssFill /></div>
+                        <div className="p-3 border border-neutral-800 rounded bg-neutral-600 text-blue-400"><SiMysql /></div>
+                        <div className="p-3 border border-neutral-800 rounded bg-neutral-600 text-orange-600"><FaGitAlt /></div>
+                        <div className="p-3 border border-neutral-800 rounded bg-neutral-600 text-black"><FaGithub /></div>
                     </div>
                 </motion.div>
             </div>
