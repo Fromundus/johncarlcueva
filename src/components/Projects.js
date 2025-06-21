@@ -58,7 +58,7 @@ export default function Projects(){
             title: "Adzeela Lite",
             thumbnail: ADZL,
             description: "A web application that transforms moving TVs into mobile advertising platforms. With Adzeela Lite, you can register a screen attached to a car or any vehicle and offer it as a public advertising medium. Promoters can easily pay and display their ads on the go, creating dynamic, eye‑catching campaigns that reach audiences wherever the screen travels.",
-            technologies: ["HTML", "CSS", "PHP", "JAVASCRIPT", "REACT.JS", "NEXT.JS", "LARAVEL", "TAILWIND", "MYSQL"],
+            technologies: ["HTML", "CSS", "PHP", "TYPESCRIPT", "REACT.JS", "NEXT.JS", "LARAVEL", "TAILWIND", "MYSQL"],
             link: "https://adzeela-lite.vercel.app/",
         },
         
