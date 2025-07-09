@@ -7,6 +7,7 @@ import YK from "../assets/project-thumbnails/YK.png";
 import ADZL from "../assets/project-thumbnails/ADZL.png";
 import FCLO from "../assets/project-thumbnails/FCLO.png";
 import SP from "../assets/project-thumbnails/SP.png";
+import SIB from "../assets/project-thumbnails/SIB.png";
 import { motion } from "framer-motion";
 
 export default function Projects(){
@@ -60,6 +61,13 @@ export default function Projects(){
             description: "A web application that transforms moving TVs into mobile advertising platforms. With Adzeela Lite, you can register a screen attached to a car or any vehicle and offer it as a public advertising medium. Promoters can easily pay and display their ads on the go, creating dynamic, eye‑catching campaigns that reach audiences wherever the screen travels.",
             technologies: ["HTML", "CSS", "PHP", "TYPESCRIPT", "REACT.JS", "NEXT.JS", "LARAVEL", "TAILWIND", "MYSQL"],
             link: "https://adzeela-lite.vercel.app/",
+        },
+        {
+            title: "Streamer Leaderboard",
+            thumbnail: SIB,
+            description: "A web application that displays a real-time leaderboard of top users participating in the online gambling game CSGOEmpire. It tracks performance, ranking, and statistics to highlight the most active and highest-earning streamers on the platform.",
+            technologies: ["HTML", "CSS", "PHP", "REACT.JS", "LARAVEL", "TAILWIND", "MYSQL"],
+            link: "https://sibrio.vercel.app/",
         },
         
     ]
