@@ -102,14 +102,14 @@ export default function Contact() {
 
         {/* Plain text contact info */}
         <div className="flex flex-col mt-8 space-y-2 text-center text-lg">
-          <p className="text-red-500 flex items-center gap-4">
+          <p className="flex items-center gap-4">
             <SiGmail />
             <span>Email:</span>
             <span className="hover:underline">
               johncarlcastrocueva@gmail.com
             </span>
           </p>
-          <p className="text-green-500 flex items-center gap-4">
+          <p className="flex items-center gap-4">
             <FaWhatsapp />
             <span>WhatsApp:</span>
             <span className="hover:underline" target="_blank" rel="noopener noreferrer">

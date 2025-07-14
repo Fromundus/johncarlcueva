@@ -5,6 +5,7 @@ import FVS from "../assets/project-thumbnails/FVS.png";
 import BHMS from "../assets/project-thumbnails/BHMS.png";
 import YK from "../assets/project-thumbnails/YK.png";
 import ADZL from "../assets/project-thumbnails/ADZL.png";
+import ADZ from "../assets/project-thumbnails/ADZ.png";
 import FCLO from "../assets/project-thumbnails/FCLO.png";
 import SP from "../assets/project-thumbnails/SP.png";
 import SIB from "../assets/project-thumbnails/SIB.png";
@@ -56,10 +57,17 @@ export default function Projects(){
             link: "https://ficelco.vercel.app/",
         },
         {
+            title: "Adzeela",
+            thumbnail: ADZ,
+            description: "A powerful web application that lets you broadcast ads through TVs—anytime, anywhere in the world. With full remote control, you can manage and schedule your ad content across multiple screens from a single platform, turning any TV into a targeted advertising tool, whether it's in a store, office, or public space. As the DevOps engineer, I managed the deployment and infrastructure using Git, Hostinger, and Vercel to ensure a seamless and scalable delivery pipeline.",
+            technologies: ["HTML", "CSS", "PHP", "TYPESCRIPT", "REACT.JS", "NEXT.JS", "LARAVEL", "TAILWIND", "MYSQL", "GIT", "HOSTINGER", "VERCEL"],
+            link: "https://app.adzeela.com",
+        },
+        {
             title: "Adzeela Lite",
             thumbnail: ADZL,
             description: "A web application that transforms moving TVs into mobile advertising platforms. With Adzeela Lite, you can register a screen attached to a car or any vehicle and offer it as a public advertising medium. Promoters can easily pay and display their ads on the go, creating dynamic, eye‑catching campaigns that reach audiences wherever the screen travels.",
-            technologies: ["HTML", "CSS", "PHP", "TYPESCRIPT", "REACT.JS", "NEXT.JS", "LARAVEL", "TAILWIND", "MYSQL"],
+            technologies: ["HTML", "CSS", "PHP", "TYPESCRIPT", "REACT.JS", "NEXT.JS", "LARAVEL", "TAILWIND", "MYSQL", "GIT", "HOSTINGER", "VERCEL"],
             link: "https://adzeela-lite.vercel.app/",
         },
         {
