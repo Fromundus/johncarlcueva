@@ -49,13 +49,13 @@ export default function Projects(){
             description: "A local e‑commerce platform that connects customers with unique products from local businesses. Designed to support the community, Shoppayo makes it easy to discover, shop, and enjoy high‑quality local goods—all from the comfort of home.",
             technologies: ["HTML", "CSS", "PHP", "JAVASCRIPT", "REACT.JS", "LARAVEL", "TAILWIND", "MYSQL"],
         },
-        {
-            title: "FICELCO",
-            thumbnail: FCLO,
-            description: "A user-friendly web app for an electric company that provides real-time updates, service information, and all the essential details customers need. Stay informed and connected with the latest news, schedules, and announcements—all in one convenient platform.",
-            technologies: ["HTML", "CSS", "PHP", "JAVASCRIPT", "REACT.JS", "LARAVEL", "TAILWIND", "MYSQL"],
-            link: "https://ficelco.vercel.app/",
-        },
+        // {
+        //     title: "FICELCO",
+        //     thumbnail: FCLO,
+        //     description: "A user-friendly web app for an electric company that provides real-time updates, service information, and all the essential details customers need. Stay informed and connected with the latest news, schedules, and announcements—all in one convenient platform.",
+        //     technologies: ["HTML", "CSS", "PHP", "JAVASCRIPT", "REACT.JS", "LARAVEL", "TAILWIND", "MYSQL"],
+        //     link: "https://ficelco.vercel.app/",
+        // },
         {
             title: "Adzeela",
             thumbnail: ADZ,
