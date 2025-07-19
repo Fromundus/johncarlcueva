@@ -59,7 +59,7 @@ const projects = [
     {
         title: "Adzeela",
         thumbnail: ADZ,
-        description: "A remote-controlled advertising platform that displays digital ads on any TV screen worldwide. Users can manage multiple screens, schedule content, and track campaigns. As a DevOps Engineer and Full-stack Developer, I handled deployment pipelines, version control (Git), infrastructure (Hostinger/Vercel), and full system implementation.",
+        description: "An advertising platform that displays digital ads on any TV screen worldwide. Users can manage multiple screens, schedule content, and track campaigns. As a DevOps Engineer and Full-stack Developer, I handled deployment pipelines, version control (Git), infrastructure (Hostinger/Vercel), and full system implementation.",
         technologies: ["HTML", "CSS", "PHP", "TYPESCRIPT", "REACT.JS", "NEXT.JS", "LARAVEL", "TAILWIND", "MYSQL", "GIT", "HOSTINGER", "VERCEL"],
         isDeployed: true,
         link: "https://app.adzeela.com",
