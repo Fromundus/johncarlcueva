@@ -101,21 +101,25 @@ export default function Contact() {
         </motion.div>
 
         {/* Plain text contact info */}
-        <div className="flex flex-col mt-8 space-y-2 text-center text-lg">
-          <p className="flex items-center gap-4">
-            <SiGmail />
-            <span>Email:</span>
+        <div className="flex flex-col mt-8 space-y-6 text-center items-center text-lg">
+          <div className="flex items-center flex-col md:flex-row lg:flex-row gap-2">
+            <div className="flex items-center gap-2">
+              <SiGmail />
+              <span>Email:</span>
+            </div>
             <span className="hover:underline">
               johncarlcastrocueva@gmail.com
             </span>
-          </p>
-          <p className="flex items-center gap-4">
-            <FaWhatsapp />
-            <span>WhatsApp:</span>
+          </div>
+          <div className="flex items-center flex-col md:flex-row lg:flex-row gap-2">
+            <div className="flex items-center gap-2">
+              <FaWhatsapp />
+              <span>WhatsApp:</span>
+            </div>
             <span className="hover:underline" target="_blank" rel="noopener noreferrer">
               +639605510756
             </span>
-          </p>
+          </div>
         </div>
       </div>
     </section>

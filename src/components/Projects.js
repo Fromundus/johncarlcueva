@@ -13,79 +13,83 @@ import YTK2 from "../assets/project-thumbnails/YTK2.png";
 import { motion } from "framer-motion";
 
 export default function Projects(){
-    const projects = [
-        {
-            title: "Daily Accomplishment Report System",
-            thumbnail: DAR,
-            description: "This is the first project I made. It's a requirement for my OJT training. It is a tool designed to help you track, manage, and celebrate your daily accomplishments.",
-            technologies: ["HTML", "CSS", "PHP", "JAVASCRIPT", "BOOTSTRAP", "MYSQL"]
-        },
-        {
-            title: "Boardinghouse Management System",
-            thumbnail: BHMS,
-            description: "The Boardinghouse Management System is designed to simplify the administration and operation of boardinghouses. This system offers a comprehensive platform for managing tenants, tracking payments, and ensuring the smooth running of day-to-day operations.",
-            technologies: ["HTML", "CSS", "PHP", "JAVASCRIPT", "REACT.JS", "LARAVEL", "BOOTSTRAP", "MYSQL"]
-        },
-        {
-            title: "Fingerprint Voting System",
-            thumbnail: FVS,
-            description: "The system is designed to modernize the voting process through biometric technology. By utilizing fingerprint recognition, this system ensures the integrity of elections, eliminates the risk of voter fraud, and simplifies the voting experience for both voters and administrators.",
-            technologies: ["HTML", "CSS", "PHP", "JAVASCRIPT", "C#", "REACT.JS", "LARAVEL", "BOOTSTRAP", "MYSQL"]
-        },
-        {
-            title: "Scholastic Document Request and Retreival System",
-            thumbnail: DRRS,
-            description: "This was my thesis project. It's designed to simplify the process of requesting, processing, and retrieving academic documents for students, alumni, and educational institutions. This system simplifies administrative workflows, ensuring that document requests are handled efficiently and securely.",
-            technologies: ["HTML", "CSS", "JAVASCRIPT", "REACT.JS", "PHP", "LARAVEL", "BOOTSTRAP", "MYSQL"]
-        },
-        {
-            title: "YouTube Karaoke",
-            thumbnail: YK,
-            description: "I created a karaoke system that plays karaoke videos from youtube. I designed it just like a traditional karaoke machine. The difference is that you can control the system using your phone. It's also easier to reserve a song because of the search capability.",
-            technologies: ["HTML", "CSS", "PHP", "JAVASCRIPT", "REACT.JS", "LARAVEL", "BOOTSTRAP", "MYSQL"]
-        },
-        {
-            title: "Shoppayo",
-            thumbnail: SP,
-            description: "A local e‑commerce platform that connects customers with unique products from local businesses. Designed to support the community, Shoppayo makes it easy to discover, shop, and enjoy high‑quality local goods—all from the comfort of home.",
-            technologies: ["HTML", "CSS", "PHP", "JAVASCRIPT", "REACT.JS", "LARAVEL", "TAILWIND", "MYSQL"],
-        },
-        // {
-        //     title: "FICELCO",
-        //     thumbnail: FCLO,
-        //     description: "A user-friendly web app for an electric company that provides real-time updates, service information, and all the essential details customers need. Stay informed and connected with the latest news, schedules, and announcements—all in one convenient platform.",
-        //     technologies: ["HTML", "CSS", "PHP", "JAVASCRIPT", "REACT.JS", "LARAVEL", "TAILWIND", "MYSQL"],
-        //     link: "https://ficelco.vercel.app/",
-        // },
-        {
-            title: "Adzeela",
-            thumbnail: ADZ,
-            description: "A powerful web application that lets you broadcast ads through TVs—anytime, anywhere in the world. With full remote control, you can manage and schedule your ad content across multiple screens from a single platform, turning any TV into a targeted advertising tool, whether it's in a store, office, or public space. As the DevOps engineer, I managed the deployment and infrastructure using Git, Hostinger, and Vercel to ensure a seamless and scalable delivery pipeline.",
-            technologies: ["HTML", "CSS", "PHP", "TYPESCRIPT", "REACT.JS", "NEXT.JS", "LARAVEL", "TAILWIND", "MYSQL", "GIT", "HOSTINGER", "VERCEL"],
-            link: "https://app.adzeela.com",
-        },
-        {
-            title: "Adzeela Lite",
-            thumbnail: ADZL,
-            description: "A web application that transforms moving TVs into mobile advertising platforms. With Adzeela Lite, you can register a screen attached to a car or any vehicle and offer it as a public advertising medium. Promoters can easily pay and display their ads on the go, creating dynamic, eye‑catching campaigns that reach audiences wherever the screen travels.",
-            technologies: ["HTML", "CSS", "PHP", "TYPESCRIPT", "REACT.JS", "NEXT.JS", "LARAVEL", "TAILWIND", "MYSQL", "GIT", "HOSTINGER", "VERCEL"],
-            link: "https://adzeela-lite.vercel.app/",
-        },
-        {
-            title: "Streamer Leaderboard",
-            thumbnail: SIB,
-            description: "A web application that displays a real-time leaderboard of top users participating in the online gambling game CSGOEmpire. It tracks performance, ranking, and statistics to highlight the most active and highest-earning streamers on the platform.",
-            technologies: ["HTML", "CSS", "PHP", "REACT.JS", "LARAVEL", "TAILWIND", "MYSQL"],
-            link: "https://sibrio.vercel.app/",
-        },
-        {
-            title: "Youtube Karaoke V2",
-            thumbnail: YTK2,
-            description: "This is a better version of my project Youtube Karaoke. I added PUSHER for realtime remote to karaoke communication and also added Multi-user and multi-karaoke functionalities.",
-            technologies: ["HTML", "CSS", "PHP", "REACT.JS", "LARAVEL", "TAILWIND", "MYSQL", "PUSHER"],
-            link: "https://ytkaraoke.vercel.app/",
-        },
-    ]
+const projects = [
+    {
+        title: "Daily Accomplishment Report System",
+        thumbnail: DAR,
+        description: "A web-based system designed to record and monitor daily work accomplishments—developed as part of my OJT training. The tool allows users to document tasks, review past entries, and generate summaries for performance evaluation. I built the entire system from scratch, handling both front-end and back-end development, including database design and report generation.",
+        technologies: ["HTML", "CSS", "PHP", "JAVASCRIPT", "BOOTSTRAP", "MYSQL"],
+        isDeployed: false,
+    },
+    {
+        title: "Boardinghouse Management System",
+        thumbnail: BHMS,
+        description: "An all-in-one solution for managing boardinghouses—covering tenant registration, rent tracking, billing, and maintenance requests. This project aimed to digitize manual operations and improve management efficiency.",
+        technologies: ["HTML", "CSS", "PHP", "JAVASCRIPT", "REACT.JS", "LARAVEL", "BOOTSTRAP", "MYSQL"],
+        isDeployed: false,
+    },
+    {
+        title: "Fingerprint Voting System",
+        thumbnail: FVS,
+        description: "A secure voting system using fingerprint biometrics to ensure voter authenticity and eliminate fraud. Designed to enhance the integrity of elections through biometric verification and real-time results processing. I worked on both the biometric integration (using C#) and full-stack development for the admin and voting modules.",
+        technologies: ["HTML", "CSS", "PHP", "JAVASCRIPT", "C#", "REACT.JS", "LARAVEL", "BOOTSTRAP", "MYSQL"],
+        isDeployed: false,
+    },
+    {
+        title: "Scholastic Document Request and Retrieval System",
+        thumbnail: DRRS,
+        description: "My thesis project—a platform that automates the academic document request process for students and alumni. Users can request, pay, and track documents online while the admin can manage workflows, approvals, and delivery.",
+        technologies: ["HTML", "CSS", "JAVASCRIPT", "REACT.JS", "PHP", "LARAVEL", "BOOTSTRAP", "MYSQL"],
+        isDeployed: false,
+    },
+    {
+        title: "YouTube Karaoke",
+        thumbnail: YK,
+        description: "A web-based karaoke system that streams YouTube videos and mimics the experience of a traditional karaoke machine. It includes a mobile remote feature and smart song reservation system with real-time search.",
+        technologies: ["HTML", "CSS", "PHP", "JAVASCRIPT", "REACT.JS", "LARAVEL", "BOOTSTRAP", "MYSQL"],
+        isDeployed: false,
+    },
+    {
+        title: "Shoppayo",
+        thumbnail: SP,
+        description: "A local e-commerce platform connecting buyers with products from small and medium businesses. Shoppayo provides a user-friendly shopping experience with product discovery, order tracking, and vendor management.",
+        technologies: ["HTML", "CSS", "PHP", "JAVASCRIPT", "REACT.JS", "LARAVEL", "TAILWIND", "MYSQL"],
+        isDeployed: false,
+    },
+    {
+        title: "Adzeela",
+        thumbnail: ADZ,
+        description: "A remote-controlled advertising platform that displays digital ads on any TV screen worldwide. Users can manage multiple screens, schedule content, and track campaigns. As a DevOps Engineer and Full-stack Developer, I handled deployment pipelines, version control (Git), infrastructure (Hostinger/Vercel), and full system implementation.",
+        technologies: ["HTML", "CSS", "PHP", "TYPESCRIPT", "REACT.JS", "NEXT.JS", "LARAVEL", "TAILWIND", "MYSQL", "GIT", "HOSTINGER", "VERCEL"],
+        isDeployed: true,
+        link: "https://app.adzeela.com",
+    },
+    {
+        title: "Adzeela Lite",
+        thumbnail: ADZL,
+        description: "A mobile advertising extension of Adzeela that allows users to register TV screens mounted on vehicles, turning them into roaming ad displays. Advertisers can remotely book ad slots and track display times. I was responsible for building the core platform and managing DevOps using Git, Hostinger, and Vercel.",
+        technologies: ["HTML", "CSS", "PHP", "TYPESCRIPT", "REACT.JS", "NEXT.JS", "LARAVEL", "TAILWIND", "MYSQL", "GIT", "HOSTINGER", "VERCEL"],
+        isDeployed: true,
+        link: "https://adzeela-lite.vercel.app/",
+    },
+    {
+        title: "Streamer Leaderboard",
+        thumbnail: SIB,
+        description: "A real-time leaderboard web app for tracking top referred users participating in the gambling platform CSGOEmpire. It features rank updates and live tracking. I developed the system using Laravel for the backend and React with Tailwind for the front-end UI, including API integrations and automated data refresh.",
+        technologies: ["HTML", "CSS", "PHP", "REACT.JS", "LARAVEL", "TAILWIND", "MYSQL"],
+        isDeployed: true,
+        link: "https://sibrio.vercel.app/",
+    },
+    {
+        title: "Youtube Karaoke V2",
+        thumbnail: YTK2,
+        description: "An upgraded version of my YouTube Karaoke system featuring real-time remote control using PUSHER, multi-user support, and multiple concurrent karaoke sessions. I revamped the architecture, implemented real-time communication, improved performance, and enhanced the UI/UX for a smoother and more scalable experience.",
+        technologies: ["HTML", "CSS", "PHP", "REACT.JS", "LARAVEL", "TAILWIND", "MYSQL", "PUSHER"],
+        isDeployed: true,
+        link: "https://ytkaraoke.vercel.app/",
+    },
+];
+
 
     const renderProjects = projects.map( (item, index) => {
         return (
@@ -104,7 +108,19 @@ export default function Projects(){
                     whileInView={{x: 0, opacity: 1}}
                     transition={{duration: 1, ease: "easeOut"}}
                 >
-                    <span className="font-bold text-xl hover:underline">{item.title}</span>
+                    <div className="flex flex-col md:flex-row lg:flex-row md:items-center lg:items-center gap-2">
+                        <span className="font-bold text-xl hover:underline">{item.title}</span>
+                        {item.isDeployed === true && <span className="inline-flex items-center gap-1 px-2 py-1 text-xs font-medium text-white bg-green-600 rounded-full shadow-sm w-fit">
+                            <svg
+                            className="w-3 h-3 animate-pulse text-white"
+                            fill="currentColor"
+                            viewBox="0 0 8 8"
+                            >
+                            <circle cx="4" cy="4" r="3" />
+                            </svg>
+                            Deployed
+                        </span>}
+                    </div>
                     <p className="mt-5 tracking-normal leading-snug text-sm text-white/50">{item.description}</p>
                     <div className="mt-5 flex flex-wrap gap-2">
                         {item.technologies.map( (tech, index) => {
