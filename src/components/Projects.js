@@ -85,7 +85,6 @@ export default function Projects(){
             technologies: ["HTML", "CSS", "PHP", "REACT.JS", "LARAVEL", "TAILWIND", "MYSQL", "PUSHER"],
             link: "https://ytkaraoke.vercel.app/",
         },
-        
     ]
 
     const renderProjects = projects.map( (item, index) => {
