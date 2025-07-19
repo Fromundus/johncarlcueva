@@ -9,6 +9,7 @@ import ADZ from "../assets/project-thumbnails/ADZ.png";
 import FCLO from "../assets/project-thumbnails/FCLO.png";
 import SP from "../assets/project-thumbnails/SP.png";
 import SIB from "../assets/project-thumbnails/SIB.png";
+import YTK2 from "../assets/project-thumbnails/YTK2.png";
 import { motion } from "framer-motion";
 
 export default function Projects(){
@@ -76,6 +77,13 @@ export default function Projects(){
             description: "A web application that displays a real-time leaderboard of top users participating in the online gambling game CSGOEmpire. It tracks performance, ranking, and statistics to highlight the most active and highest-earning streamers on the platform.",
             technologies: ["HTML", "CSS", "PHP", "REACT.JS", "LARAVEL", "TAILWIND", "MYSQL"],
             link: "https://sibrio.vercel.app/",
+        },
+        {
+            title: "Youtube Karaoke V2",
+            thumbnail: YTK2,
+            description: "This is a better version of my project Youtube Karaoke. I added PUSHER for realtime remote to karaoke communication and also added Multi-user and multi-karaoke functionalities.",
+            technologies: ["HTML", "CSS", "PHP", "REACT.JS", "LARAVEL", "TAILWIND", "MYSQL", "PUSHER"],
+            link: "https://ytkaraoke.vercel.app/",
         },
         
     ]
