@@ -94,7 +94,7 @@ const projects = [
         title: "K-Egg Website",
         thumbnail: KEGG, // Replace with actual thumbnail variable or image
         description: "A sample website designed for a K-Egg franchise, showcasing menu items, store locations, promotions, and brand story. Built with a clean, modern design and responsive layout to give potential franchisees a realistic view of how their online presence could look.",
-        technologies: ["HTML", "CSS", "JAVASCRIPT", "REACT.JS", "TAILWIND", "SHADCN"],
+        technologies: ["HTML", "CSS", "TYPESCRIPT", "REACT.JS", "TAILWIND", "SHADCN"],
         isDeployed: true,
         link: "https://k-egg.vercel.app/", // Replace with actual deployment link
     }
