@@ -11,6 +11,7 @@ import SP from "../assets/project-thumbnails/SP.png";
 import SIB from "../assets/project-thumbnails/SIB.png";
 import YTK2 from "../assets/project-thumbnails/YTK2.png";
 import KEGG from "../assets/project-thumbnails/KEGG.png";
+import FH from "../assets/project-thumbnails/FH.png";
 
 import { motion } from "framer-motion";
 
@@ -97,7 +98,15 @@ const projects = [
         technologies: ["HTML", "CSS", "TYPESCRIPT", "REACT.JS", "TAILWIND", "SHADCN"],
         isDeployed: true,
         link: "https://k-egg.vercel.app/", // Replace with actual deployment link
-    }
+    },
+    {
+    title: "Foodhub Website",
+    thumbnail: FH, // Replace with actual thumbnail variable or image
+    description: "A sample website for a fictional single-shop restaurant called Foodhub. Showcases menu items, ordering flow, and responsive design to demonstrate how a modern food ordering platform could look.",
+    technologies: ["HTML", "CSS", "TYPESCRIPT", "REACT.JS", "TAILWIND", "SHADCN"],
+    isDeployed: true,
+    link: "https://foodhubsample.vercel.app/", // Replace with actual deployment link
+}
 ];
 
 
