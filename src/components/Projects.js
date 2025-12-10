@@ -84,14 +84,6 @@ const projects = [
         link: "https://sibrio.vercel.app/",
     },
     {
-        title: "Youtube Karaoke V2",
-        thumbnail: YTK2,
-        description: "An upgraded version of my YouTube Karaoke system featuring real-time remote control using PUSHER, multi-user support, and multiple concurrent karaoke sessions. I revamped the architecture, implemented real-time communication, improved performance, and enhanced the UI/UX for a smoother and more scalable experience.",
-        technologies: ["HTML", "CSS", "PHP", "REACT.JS", "LARAVEL", "TAILWIND", "MYSQL", "PUSHER"],
-        isDeployed: true,
-        link: "https://ytkaraoke.vercel.app/",
-    },
-    {
         title: "K-Egg Website",
         thumbnail: KEGG, // Replace with actual thumbnail variable or image
         description: "A sample website designed for a K-Egg franchise, showcasing menu items, store locations, promotions, and brand story. Built with a clean, modern design and responsive layout to give potential franchisees a realistic view of how their online presence could look.",
@@ -100,13 +92,21 @@ const projects = [
         link: "https://k-egg.vercel.app/", // Replace with actual deployment link
     },
     {
-    title: "Foodhub Website",
-    thumbnail: FH, // Replace with actual thumbnail variable or image
-    description: "A sample website for a fictional single-shop restaurant called Foodhub. Showcases menu items, ordering flow, and responsive design to demonstrate how a modern food ordering platform could look.",
-    technologies: ["HTML", "CSS", "TYPESCRIPT", "REACT.JS", "TAILWIND", "SHADCN"],
-    isDeployed: true,
-    link: "https://foodhubsample.vercel.app/", // Replace with actual deployment link
-}
+        title: "Foodhub Website",
+        thumbnail: FH, // Replace with actual thumbnail variable or image
+        description: "A sample website for a fictional single-shop restaurant called Foodhub. Showcases menu items, ordering flow, and responsive design to demonstrate how a modern food ordering platform could look.",
+        technologies: ["HTML", "CSS", "TYPESCRIPT", "REACT.JS", "TAILWIND", "SHADCN"],
+        isDeployed: true,
+        link: "https://foodhubsample.vercel.app/", // Replace with actual deployment link
+    },
+    {
+        title: "Youtube Karaoke V2",
+        thumbnail: YTK2,
+        description: "An upgraded version of my YouTube Karaoke system featuring real-time remote control using PUSHER, multi-user support, and multiple concurrent karaoke sessions. I revamped the architecture, implemented real-time communication, improved performance, and enhanced the UI/UX for a smoother and more scalable experience.",
+        technologies: ["HTML", "CSS", "PHP", "REACT.JS", "LARAVEL", "TAILWIND", "MYSQL", "PUSHER"],
+        isDeployed: true,
+        link: "https://ytkaraoke.vercel.app/",
+    },
 ];
 
 
