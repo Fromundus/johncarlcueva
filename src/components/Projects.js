@@ -6,12 +6,12 @@ import BHMS from "../assets/project-thumbnails/BHMS.png";
 import YK from "../assets/project-thumbnails/YK.png";
 import ADZL from "../assets/project-thumbnails/ADZL.png";
 import ADZ from "../assets/project-thumbnails/ADZ.png";
-import FCLO from "../assets/project-thumbnails/FCLO.png";
+// import FCLO from "../assets/project-thumbnails/FCLO.png";
 import SP from "../assets/project-thumbnails/SP.png";
 import SIB from "../assets/project-thumbnails/SIB.png";
 import YTK2 from "../assets/project-thumbnails/YTK2.png";
-import KEGG from "../assets/project-thumbnails/KEGG.png";
-import FH from "../assets/project-thumbnails/FH.png";
+// import KEGG from "../assets/project-thumbnails/KEGG.png";
+// import FH from "../assets/project-thumbnails/FH.png";
 
 import FEP from "../assets/project-thumbnails/FEP.png";
 import FMS from "../assets/project-thumbnails/FMS.png";
@@ -167,7 +167,7 @@ const reversed = projects.reverse();
 
     const renderProjects = reversed.map( (item, index) => {
         return (
-            <a href={item.link && item.link} target="_blank" className="flex flex-wrap items-center cursor-pointer" key={index}>
+            <a href={item.link && item.link} target="_blank" rel="noreferrer" className="flex flex-wrap items-center cursor-pointer" key={index}>
                 <motion.div
                     className="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 p-3"
                     initial={{x: -100, opacity: 0}}

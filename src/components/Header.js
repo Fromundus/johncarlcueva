@@ -1,15 +1,8 @@
 import React from "react";
 import logo from "../assets/logo-white.png";
 import { Link } from "react-scroll";
-import { motion } from "framer-motion";
 
 export default function Header(){
-    const [isOn, setIsOn] = React.useState(false);
-
-    function toggle(){
-        setIsOn(prev => !prev);
-    }
-
     return (
         <section className="fixed w-full bg-slate-950 z-50">
             <nav className="flex justify-between px-10 py-3 lg:px-32 lg:py-4">
