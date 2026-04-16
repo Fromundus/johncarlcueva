@@ -13,6 +13,14 @@ import YTK2 from "../assets/project-thumbnails/YTK2.png";
 import KEGG from "../assets/project-thumbnails/KEGG.png";
 import FH from "../assets/project-thumbnails/FH.png";
 
+import FEP from "../assets/project-thumbnails/FEP.png";
+import FMS from "../assets/project-thumbnails/FMS.png";
+import ITSTS from "../assets/project-thumbnails/TICKET.png";
+import DEVICE from "../assets/project-thumbnails/DEVICES.png";
+
+import BNSMS from "../assets/project-thumbnails/BNSMS.png";
+import WF from "../assets/project-thumbnails/WF.png";
+
 import { motion } from "framer-motion";
 
 export default function Projects(){
@@ -63,7 +71,7 @@ const projects = [
         title: "Adzeela",
         thumbnail: ADZ,
         description: "An advertising platform that displays digital ads on any TV screen worldwide. Users can manage multiple screens, schedule content, and track campaigns. As a DevOps Engineer and Full-stack Developer, I handled deployment pipelines, version control (Git), infrastructure (Hostinger/Vercel), and full system implementation.",
-        technologies: ["HTML", "CSS", "PHP", "TYPESCRIPT", "REACT.JS", "NEXT.JS", "LARAVEL", "TAILWIND", "MYSQL", "GIT", "HOSTINGER", "VERCEL"],
+        technologies: ["HTML", "CSS", "PHP", "TYPESCRIPT", "REACT.TS", "NEXT.JS", "LARAVEL", "TAILWIND", "MYSQL", "GIT", "HOSTINGER", "VERCEL"],
         isDeployed: true,
         link: "https://app.adzeela.com",
     },
@@ -71,17 +79,17 @@ const projects = [
         title: "Adzeela Lite",
         thumbnail: ADZL,
         description: "A mobile advertising extension of Adzeela that allows users to register TV screens mounted on vehicles, turning them into roaming ad displays. Advertisers can remotely book ad slots and track display times. I was responsible for building the core platform and managing DevOps using Git, Hostinger, and Vercel.",
-        technologies: ["HTML", "CSS", "PHP", "TYPESCRIPT", "REACT.JS", "NEXT.JS", "LARAVEL", "TAILWIND", "MYSQL", "GIT", "HOSTINGER", "VERCEL"],
+        technologies: ["HTML", "CSS", "PHP", "TYPESCRIPT", "REACT.TS", "NEXT.JS", "LARAVEL", "TAILWIND", "MYSQL", "GIT", "HOSTINGER", "VERCEL"],
         isDeployed: true,
-        link: "https://adzeela-lite.vercel.app/",
+        link: "https://adzeela-lite.vercel.app",
     },
     {
         title: "Streamer Leaderboard",
         thumbnail: SIB,
         description: "A real-time leaderboard web app for tracking top referred users participating in the gambling platform CSGOEmpire. It features rank updates and live tracking. I developed the system using Laravel for the backend and React with Tailwind for the front-end UI, including API integrations and automated data refresh.",
-        technologies: ["HTML", "CSS", "PHP", "REACT.JS", "LARAVEL", "TAILWIND", "MYSQL"],
+        technologies: ["HTML", "CSS", "PHP", "TYPESCRIPT", "REACT.TS", "LARAVEL", "TAILWIND", "MYSQL"],
         isDeployed: true,
-        link: "https://sibrio.vercel.app/",
+        link: "https://sibrio.vercel.app",
     },
     // {
     //     title: "K-Egg Website",
@@ -100,17 +108,64 @@ const projects = [
     //     link: "https://foodhubsample.vercel.app/", // Replace with actual deployment link
     // },
     {
+        title: "Barangay Nutritional Status Monitoring System",
+        thumbnail: BNSMS,
+        description: "A barangay-based system designed to monitor and manage the nutritional status of residents. It enables health workers to record, track, and analyze data such as weight, height, BMI, and nutritional classifications. The platform supports early identification of malnutrition cases, generates reports for decision-making, and improves the delivery of health and nutrition programs. It is integrated with local health records to ensure accurate and consistent data management.",
+        technologies: ["HTML", "CSS", "PHP", "TYPESCRIPT", "REACT.TS", "LARAVEL", "TAILWIND", "MYSQL"],
+        isDeployed: false,
+    },
+    {
+        title: "Catanduanes Worker Finder",
+        thumbnail: WF,
+        description: "A location-based employment platform designed to connect job seekers and employers within Catanduanes. It features GIS-powered mapping to help users find nearby job opportunities and available workers based on their location. The system allows employers to post job listings, while job seekers can create profiles, search for work, and apply بسهولة. It enhances local employment accessibility, streamlines hiring processes, and supports data-driven decision-making through real-time geographic insights.",
+        technologies: ["HTML", "CSS", "PHP", "TYPESCRIPT", "REACT.TS", "LARAVEL", "TAILWIND", "MYSQL"],
+        isDeployed: false,
+    },
+    {
         title: "Youtube Karaoke V2",
         thumbnail: YTK2,
         description: "An upgraded version of my YouTube Karaoke system featuring real-time remote control using PUSHER, multi-user support, and multiple concurrent karaoke sessions. I revamped the architecture, implemented real-time communication, improved performance, and enhanced the UI/UX for a smoother and more scalable experience.",
-        technologies: ["HTML", "CSS", "PHP", "REACT.JS", "LARAVEL", "TAILWIND", "MYSQL", "PUSHER"],
+        technologies: ["HTML", "CSS", "PHP", "JAVASCRIPT", "REACT.JS", "LARAVEL", "TAILWIND", "MYSQL", "PUSHER"],
         isDeployed: true,
-        link: "https://ytkaraoke.vercel.app/",
+        link: "https://ytkaraoke.vercel.app",
+    },
+    {
+        title: "FICELCO IT Support Ticket System",
+        thumbnail: ITSTS,
+        description: "An IT support platform that streamlines ticket creation, tracking, and resolution. It enables employees to submit issues, allows IT staff to manage workflows efficiently, and provides real-time status updates for improved response time and accountability.",
+        technologies: ["HTML", "CSS", "PHP", "TYPESCRIPT", "REACT.TS", "LARAVEL", "TAILWIND", "MYSQL", "PUSHER"],
+        isDeployed: true,
+        link: "https://ticket.ficelco.com",
+    },
+    {
+        title: "FICELCO Computer Unit Records and Service Management",
+        thumbnail: DEVICE,
+        description: "A centralized system for managing computer unit records, maintenance, and service requests. It streamlines tracking of hardware assets and repair history.",
+        technologies: ["HTML", "CSS", "PHP", "TYPESCRIPT", "REACT.TS", "LARAVEL", "TAILWIND", "MYSQL"],
+        isDeployed: true,
+        link: "https://devices.ficelco.com",
+    },
+    {
+        title: "FICELCO Fuel Monitoring System",
+        thumbnail: FMS,
+        description: "A real-time fuel tracking system designed to monitor fuel consumption, inventory, and usage across operations.",
+        technologies: ["HTML", "CSS", "PHP", "TYPESCRIPT", "REACT.TS", "LARAVEL", "TAILWIND", "MYSQL", "PUSHER"],
+        isDeployed: true,
+        link: "https://fuel.ficelco.com",
+    },
+    {
+        title: "FICELCO Employee Portal",
+        thumbnail: FEP,
+        description: "An employee management portal that provides access to HR services, records, and internal tools. It improves communication and enhances employee engagement through a digital platform. It is fully integrated with the existing company database and business logic, ensuring data synchronization, consistent records management, and interaction with current operational systems.",
+        technologies: ["HTML", "CSS", "PHP", "TYPESCRIPT", "REACT.TS", "LARAVEL", "TAILWIND", "MYSQL"],
+        isDeployed: true,
+        link: "https://employee.ficelco.com",
     },
 ];
 
+const reversed = projects.reverse();
 
-    const renderProjects = projects.map( (item, index) => {
+    const renderProjects = reversed.map( (item, index) => {
         return (
             <a href={item.link && item.link} target="_blank" className="flex flex-wrap items-center cursor-pointer" key={index}>
                 <motion.div
@@ -127,18 +182,21 @@ const projects = [
                     whileInView={{x: 0, opacity: 1}}
                     transition={{duration: 1, ease: "easeOut"}}
                 >
-                    <div className="flex flex-col md:flex-row lg:flex-row md:items-center lg:items-center gap-2">
-                        <span className="font-bold text-xl hover:underline">{item.title}</span>
-                        {item.isDeployed === true && <span className="inline-flex items-center gap-1 px-2 py-1 text-xs font-medium text-white bg-green-600 rounded-full shadow-sm w-fit">
-                            <svg
-                            className="w-3 h-3 animate-pulse text-white"
-                            fill="currentColor"
-                            viewBox="0 0 8 8"
-                            >
-                            <circle cx="4" cy="4" r="3" />
-                            </svg>
-                            Deployed
-                        </span>}
+                    <div className="flex flex-col gap-4">
+                        <div className="flex flex-col md:flex-row lg:flex-row md:items-center lg:items-center gap-2">
+                            <span className="font-bold text-xl hover:underline">{item.title}</span>
+                            {item.isDeployed === true && <span className="inline-flex items-center gap-1 px-2 py-1 text-xs font-medium text-white bg-green-600 rounded-full shadow-sm w-fit">
+                                <svg
+                                className="w-3 h-3 animate-pulse text-white"
+                                fill="currentColor"
+                                viewBox="0 0 8 8"
+                                >
+                                <circle cx="4" cy="4" r="3" />
+                                </svg>
+                                Live
+                            </span>}
+                        </div>
+                        <span className="text-blue-500 hover:underline text-sm">{item.link}</span>
                     </div>
                     <p className="mt-5 tracking-normal leading-snug text-sm text-white/50">{item.description}</p>
                     <div className="mt-5 flex flex-wrap gap-2">
@@ -165,7 +223,10 @@ const projects = [
                     Projects
                     <div className="mt-4 rounded-md self-center bg-pink-600" style={{height: "5px", width: "40px"}}></div>  
                 </motion.span>
-                <div className="flex flex-col-reverse flex-wrap gap-10 mt-10">
+                {/* <div className="flex flex-col-reverse flex-wrap gap-10 mt-10">
+                    {renderProjects}
+                </div> */}
+                <div className="grid grid-cols-1 gap-10 mt-10">
                     {renderProjects}
                 </div>
             </div>

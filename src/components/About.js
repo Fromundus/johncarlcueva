@@ -87,7 +87,7 @@ export default function About() {
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
-          I’m a web developer with a strong foundation in HTML, CSS, JavaScript, PHP, and MySQL. During my studies and internships, I've built dynamic, responsive, and user-friendly websites. Whether you’re looking for a modern front-end interface or a secure back-end system, I have the expertise to bring your vision to life.
+          I’m a web developer with a strong foundation in HTML, CSS, JavaScript, TypeScript, PHP, and MySQL. During my studies and internships, I've built dynamic, responsive, and user-friendly websites. Whether you’re looking for a modern front-end interface or a secure back-end system, I have the expertise to bring your vision to life.
         </motion.p>
 
         <motion.div

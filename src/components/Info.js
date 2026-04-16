@@ -16,7 +16,7 @@ export default function Info(){
                 >
                     <span className="text-2xl md:text-3xl lg:text-4xl mb-8">Hi, I'm <span className="text-pink-600 font-extrabold">John Carl Cueva</span></span>
                     <div className="w-full sm:w-3/4 md:w-3/4">
-                        <p className="lg:text-lg tracking-widest leading-loose">I'm a Full Stack Web Developer specializing in creating and managing websites and web applications.</p>
+                        <p className="lg:text-lg tracking-widest leading-loose">I'm a Full Stack Developer specializing in creating and managing websites, web applications, and systems.</p>
                     </div>
 
                     <motion.div
