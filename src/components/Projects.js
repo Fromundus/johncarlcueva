@@ -117,7 +117,7 @@ const projects = [
     {
         title: "Catanduanes Worker Finder",
         thumbnail: WF,
-        description: "A location-based employment platform designed to connect job seekers and employers within Catanduanes. It features GIS-powered mapping to help users find nearby job opportunities and available workers based on their location. The system allows employers to post job listings, while job seekers can create profiles, search for work, and apply بسهولة. It enhances local employment accessibility, streamlines hiring processes, and supports data-driven decision-making through real-time geographic insights.",
+        description: "A location-based employment platform designed to connect job seekers and employers within Catanduanes. It features GIS-powered mapping to help users find nearby job opportunities and available workers based on their location. The system allows employers to post job listings, while job seekers can create profiles, search for work, and apply.",
         technologies: ["HTML", "CSS", "PHP", "TYPESCRIPT", "REACT.TS", "LARAVEL", "TAILWIND", "MYSQL"],
         isDeployed: false,
     },
