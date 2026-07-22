@@ -21,6 +21,8 @@ import DEVICE from "../assets/project-thumbnails/DEVICES.png";
 import BNSMS from "../assets/project-thumbnails/BNSMS.png";
 import WF from "../assets/project-thumbnails/WF.png";
 
+import KARASYNC from "../assets/project-thumbnails/KARASYNC.png";
+
 import { motion } from "framer-motion";
 
 export default function Projects(){
@@ -128,6 +130,24 @@ const projects = [
         technologies: ["HTML", "CSS", "PHP", "JAVASCRIPT", "REACT.JS", "LARAVEL", "TAILWIND", "MYSQL", "PUSHER"],
         isDeployed: true,
         link: "https://ytkaraoke.vercel.app",
+    },
+    {
+        title: "KaraSync",
+        thumbnail: KARASYNC,
+        description: "KaraSync is the latest version of my YouTube Karaoke system. It features real-time synchronized playback and remote control powered by Pusher, multi-user collaboration, and support for multiple concurrent karaoke sessions. The application was rebuilt with React.js and Laravel, featuring a redesigned architecture, improved performance, a modern responsive UI, and a scalable real-time communication system for a seamless karaoke experience across multiple devices.",
+        technologies: [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT",
+            "PHP",
+            "REACT.JS",
+            "LARAVEL",
+            "TAILWIND CSS",
+            "MYSQL",
+            "PUSHER"
+        ],
+        isDeployed: true,
+        link: "https://karasync.vercel.app",
     },
     {
         title: "FICELCO IT Support Ticket System",
